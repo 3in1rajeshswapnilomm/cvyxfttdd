@@ -1,0 +1,85 @@
+<html>
+<head>
+    <title>Login </title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <h2>Login</h2>
+    <div class="login">
+        <form id="login">
+            <label><B>Username:</B></label>
+            <input type="text" name="Uname" id="Uname" placeholder="Username">
+            <br><br>
+            <label><b>Password:</b></label>
+            <input type="password" name="pass" id="pass" placeholder="Password">
+            <br><br>
+            <input type="button" name="loginBtn" id="loginBtn" value="Log In">
+            <br><br>
+            <input type="checkbox" id="check">
+            <span>Remember Me</span>
+            <br><br>
+            Forgot <a href = "#">Password</a>
+        </form>
+    </div>
+    
+</body>
+</html>
+<style>
+body{
+    background-color: #6abadeba;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial';
+}
+
+.login{
+    width: 300px;
+    margin: auto;
+    margin: 20 0 0 340px;
+    overflow: hidden;
+    padding: 80px;
+    background: #23463f;
+    border-radius: 15px;
+    height: 200px;
+}
+h2{
+    text-align: center;
+    color: #277582;
+    padding: 20px;
+}
+label{
+    color: #08ffd1;
+    font-size: 17px;
+}
+#Uname{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#pass{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#loginBtn{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: blue;
+}
+span{
+    color: white;
+    font-size: 17px;
+}
+
+a{
+    float: right;
+    background-color: gray;
+}
+</style>
